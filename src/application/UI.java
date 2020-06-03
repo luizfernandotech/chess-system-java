@@ -13,14 +13,9 @@ public class UI {
             System.out.println();
         }
 
-        int i = 0;
         System.out.print("  ");
-        for (char c = 'a'; c < 'z'; c++) {
+        for (char c = 'a'; c <= 'h'; c++) {
             System.out.print(c + " ");
-            i++;
-            if (i == pieces.length) {
-                break;
-            }
         }
     }
 
